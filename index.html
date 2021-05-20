@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Navigation</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        @import url(personalsite.css);
+        </style>
+</head>
+        <script>
+           setTimeout(() => {
+               alert("Special Wellcome by Keyur jivani");
+           },1);
+       </script>
+
+<body>
+    <header id="home">
+    <div class="nav-bar">
+        <div  class="left">
+            <img src="D://website/web prsonal/pic/logo.png" >
+        </div>
+        <div class="menu-right">
+    <span style="color:#fba101 ;" onClick="myFunction()">&#9776;</span>
+           <ul id="menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILL</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>   
+    <div class="mainc">
+        <div class="well">
+            <h1 id="well1">Wellcome to coolest city </h1>
+        </div>
+        <div class="conatain">
+            <h1>MR.keyur</h1>
+            
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quo vero possimus, exercitationem enim reprehenderit illum perferendis .</p> -->
+        </div>
+    </div>
+</header>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script>
+    function myFunction(){
+        var x = document.getElementById("menu");
+        if(x.style.display == "block")
+        {
+            x.style.display = "none";
+            $(".nav-bar").removeClass("keyur");
+        }
+        else{
+            x.style.display = "block";
+            $(".nav-bar").addClass("keyur");
+        }
+    }
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $(".nav-bar").addClass("keyur");
+        }
+        else{
+            $(".nav-bar").removeClass("keyur");
+        }
+    })
+    </script>
+    <main>
+        <!-- <section id="home" class="mainconatain">
+            <div class="conatain">
+                <h1 id="n">MR.KEYUR</h1>
+                <p class="code">coder<br>web developer</p>
+            </div>
+        </section> -->
+        <section id="about" class="about">
+            <div class="pic2">
+                <img id="pic2id" src="D://website/web prsonal/pic/main.jpeg">
+            </div>
+            <div class="inabout">
+                <div class="ti">
+                <h2>About me</h2>
+                </div>
+
+                <p id="ab">Name:Jivani Keyur Hareshbhai</p>
+                <!-- <p>Mother Name:Krishnaben Hareshbhai Jiavni</p><br> -->
+                <p id="bc">Birth Date :- 29/10/2002</p>
+                <p id="cd">Address:101,Sky hills,vrundavan park,lilaper-kenal road,Morbi-363641</p>
+                <p id="de">Hobby :- talking about politics,playing Kabaddi,spending time alone,listening music</p>
+                <p id="ef">I am currently studing at <strong>DHARMANSINH DESAI UNIVERSITY</strong> as 1st year computer engineering
+                    student.</p>
+                </p>
+            </div>
+        </section>
+        <section class="skill" id="skills">
+            <div class="sik1">
+                <h3>Skills</h3>
+                <p><hr></p>
+            </div>
+            <div class="sik2">
+                <div class="sik21">
+                    <P>I learned five language which are <strong>C,C++,HTML,CSS and PHP</strong>.</P>
+                    <p>I am CURRENTLY WORK WITH TEAM PROJECT AND ALSO doing WEB DESIGN.</P>
+                        <p> I completed my 10th and 12th with 99.17 PR and  99.30 PR respectively. </p>
+                        <p>I also got 94.5522855 PR in jee exam with 59196(CRL) & 9818(GEN-EWS) all india rank.</p>
+                        <p>I got 92.50 marks out of 120 in GUJCET exam with 98.14 PR in Gujarat.</p>
+                        
+                    </div>
+                    <div class="language">
+                        
+                        
+                        <div class="cl"><p>C</p>                           <ion-icon class="star" name="star"></ion-icon><ion-icon class="star" name="star"></ion-icon><ion-icon class="star" name="star"></ion-icon><ion-icon class="star" name="star"></ion-icon>
+                        </div>
+                        
+                        
+                        <div class="cl"><p>HTML</p>                     <ion-icon class="star" name="star"></ion-icon><ion-icon class="star"  name="star"></ion-icon><ion-icon class="star" name="star"></ion-icon>
+                        </div>
+                        
+                        
+                        <div class="cl"><p>C++</p>                       <ion-icon class="star" name="star"></ion-icon><ion-icon class="star" name="star"></ion-icon><ion-icon class="star" name="star"></ion-icon>
+                        </div>
+                        
+
+                        <div class="cl"><p>CSS</p>                       <ion-icon class="star" name="star"></ion-icon><ion-icon class="star" name="star"></ion-icon><ion-icon class="star" name="star"></ion-icon>
+                        </div>
+                        
+                        
+                        <div class="cl"><p>PHP</p>                       <ion-icon class="star" name="star"></ion-icon><ion-icon class="star" name="star"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="contact">
+                <div class="con">
+                    <h4>Contact me</h4>
+            </div>
+            <div class="incon">
+                <p>free feel to contact me any time</p>
+            </div>
+            <div class="social">
+                <button class="i">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <a href="https://github.com/keyur1149" title="keyur jivani on github">github</a>
+                </button>
+                <button class="i">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <a href="https://www.instagram.com/mr.cool_1149/" title="keyur jivani on instragram">instragram</a>
+                </button>
+                <button class="i">
+                    <ion-icon name="mail"></ion-icon>
+                    <a href="mailto:keyurpatel1149@gmail.com" title="mail to keyur jivani">Mail</a>
+                </button>
+                <button class="i">
+                    <ion-icon name="call"></ion-icon>
+                    <a href="tel:+918141351199" title="call to keyur jivani">+91 8141351199</a>
+                </button    >
+                
+            </div>
+        </section>
+    </main>
+    <div class="my">
+        <div class="my1">
+            <p>More about me</p>
+        </div>
+        <div class="my2 ">
+        <div>
+            <a href="fav.html">Favourite</a>
+        </div>
+        <div>
+            <a href="dream.html">Dream</a>
+        </div>
+        <div>
+            <a href="friend.html">Friends</a>
+        </div>
+        </div>
+        <!-- <div class="my3">
+            <div>
+                <button onclick="">My project</button>
+            </div>
+            <div>
+                <button>My Team</button>
+            </div>
+            <div>
+                <button></button>
+            </div>
+        </div> -->
+    </div>
+    <footer>
+        <div class="foot">
+        <span>desined by Keyur Jivani</span>
+        <span>|&copy;copyright</span><span>|Term & Policy</span>
+        </div>
+        <p class="thank">Thank you for visiting</p>
+    </footer>
+    <!-- <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+
+</html>
