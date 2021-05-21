@@ -278,6 +278,18 @@ h2 {
     display: flex;
     justify-content: center;
 }
+#ab span::before{
+    content: " ";
+    animation: name infinite 3s;
+}
+@keyframes name {
+    from{
+        content: "Dharmeshbhai";
+    }
+    to{
+        content: "Hareshbhai";
+    }
+}
 
 /* // favourite // */
 #fk{
