@@ -11,7 +11,9 @@
 * {
     box-sizing: border-box;
 }
-
+a{
+    color:black;
+}
 body {
     margin: 0px;
     margin-top: 0px;
